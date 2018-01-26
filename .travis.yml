@@ -1,0 +1,14 @@
+language: python
+sudo: required
+python:
+    - "2.6"
+    - "2.7"
+    - "3.3"
+    - "3.4"
+    - "3.5"
+    - "3.6"
+    - "nightly"
+    - "pypy"
+    - "pypy3"
+script:
+    - sudo python oh-my-tuna.py up -y -v
